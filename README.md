@@ -2,7 +2,8 @@
 
 **Web API Project**
 
-    1. Add references to project with Entities and DBContext (Add project references of Data and Domain into API project)
+    1. Add references to project with Entities and DBContext 
+      (Add project references of Data and Domain into API project)
 
     2. Build
 
