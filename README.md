@@ -40,3 +40,17 @@
     8. Remove optionsBuilder from OnConfiguring
 
     9. Clean up using statements
+
+    -------------------------------------------------------------------------------
+
+> Testing
+
+```
+ For normal app, we are using **SamuraiAppData** (check connection string in SamuraiContect.cs, OnConfiguring()).
+ For integration test, we are using **SamuraiTestData**.
+ This can be done just by changing the database name in connection string.
+ ```
+
+ For using InMemory database in out Data project, add nuget package - "Microsoft.EntityFrameworkCore.InMemory"
+
+ 
