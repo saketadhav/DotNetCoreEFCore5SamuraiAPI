@@ -43,14 +43,12 @@
 
     -------------------------------------------------------------------------------
 
-> Testing
+> Application can be ran using:
+    1. IIS Express
+    2. As a service
+    --(Both options are from visual studio)
+    3. Rest Client (Visual studio code extension)
 
-```
- For normal app, we are using **SamuraiAppData** (check connection string in SamuraiContect.cs, OnConfiguring()).
- For integration test, we are using **SamuraiTestData**.
- This can be done just by changing the database name in connection string.
- ```
 
- For using InMemory database in out Data project, add nuget package - "Microsoft.EntityFrameworkCore.InMemory"
 
  
